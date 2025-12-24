@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogoAI | إيهاب جي إم - تصميم شعارات وخدمات رقمية</title>
     <meta name="description" content="LogoAI.online هي المنصة الرائدة في مصر لتصميم الشعارات (Logos)، الهوية البصرية، وبرمجة المواقع. نضمن لك الفهرسة السريعة والظهور في نتائج البحث.">
-    <meta name="keywords" content="تصميم لوجو, logo design egypt, logoai, إيهاب جي إم, EhabGM, تصميم شعارات حلوان, برمجة مواقع مصر, SEO egypt">
+    <meta name="keywords" content="تصميم لوجو, logo design egypt, logoai, إيهاب جي إم, EhabGM, تصميم شعارات حلوان, برمجة مواقع مصر, SEO egypt, sitemap logoai">
     <link rel="canonical" href="https://logoai.online" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     
@@ -42,6 +42,7 @@
         body {
             font-family: 'Cairo', sans-serif;
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
         .gradient-text {
             background: linear-gradient(90deg, #2563eb, #7c3aed);
@@ -54,6 +55,16 @@
         }
         .animate-marquee {
           animation: marquee 20s linear infinite;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 5px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: #2563eb;
+          border-radius: 10px;
         }
         #root:empty::before {
           content: 'جاري التحميل...';

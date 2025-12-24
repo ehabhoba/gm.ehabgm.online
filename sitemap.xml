@@ -1,85 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- الصفحات الأساسية -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- الصفحات الأساسية للموقع -->
   <url>
     <loc>https://logoai.online/</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/about</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/services</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/pricing</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/portfolio</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/blog</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://logoai.online/#/contact</loc>
-    <lastmod>2024-11-06</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://logoai.online/#/sitemap</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
-  <!-- صفحات SEO لخدمة تصميم الجرافيك واللوجو -->
-  <url><loc>https://logoai.online/#/seo/graphic-design/helwan</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/nasr-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/maadi</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/dokki</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/october</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/smoha</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/mansoura</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/tanta</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/zagazig</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/asyut-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/graphic-design/hurghada</loc><priority>0.6</priority></url>
+  <!-- صفحات SEO المستهدفة للمدن - تصميم الجرافيك واللوجو -->
+  <url><loc>https://logoai.online/#/seo/graphic-design/helwan</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/nasr-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/maadi</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/dokki</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/october</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/smoha</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/mansoura</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/tanta</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/zagazig</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/asyut-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/graphic-design/hurghada</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
 
-  <!-- صفحات SEO لخدمة تصميم وبرمجة المواقع -->
-  <url><loc>https://logoai.online/#/seo/web-development/helwan</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/nasr-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/maadi</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/dokki</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/october</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/smoha</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/mansoura</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/tanta</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/zagazig</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/asyut-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/web-development/hurghada</loc><priority>0.6</priority></url>
+  <!-- صفحات SEO المستهدفة للمدن - تصميم وبرمجة المواقع -->
+  <url><loc>https://logoai.online/#/seo/web-development/helwan</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/nasr-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/maadi</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/dokki</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/october</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/smoha</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/mansoura</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/tanta</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/zagazig</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/asyut-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/web-development/hurghada</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
 
-  <!-- صفحات SEO لخدمة المتاجر الإلكترونية -->
-  <url><loc>https://logoai.online/#/seo/e-commerce/helwan</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/nasr-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/maadi</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/dokki</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/october</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/smoha</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/mansoura</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/tanta</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/zagazig</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/asyut-city</loc><priority>0.6</priority></url>
-  <url><loc>https://logoai.online/#/seo/e-commerce/hurghada</loc><priority>0.6</priority></url>
+  <!-- صفحات SEO المستهدفة للمدن - المتاجر الإلكترونية -->
+  <url><loc>https://logoai.online/#/seo/e-commerce/helwan</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/nasr-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/maadi</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/dokki</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/october</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/smoha</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/mansoura</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/tanta</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/zagazig</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/asyut-city</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://logoai.online/#/seo/e-commerce/hurghada</loc><lastmod>2025-05-20</lastmod><priority>0.8</priority></url>
 </urlset>

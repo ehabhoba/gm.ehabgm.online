@@ -23,9 +23,15 @@ export interface BlogPost {
   date: string;
   category: string;
   image: string;
+  tags: string[];
 }
 
 export interface FAQ {
   question: string;
   answer: string;
+}
+
+export interface SEOKeyword {
+  term: string;
+  category: 'ads' | 'design' | 'web' | 'marketing' | 'ecommerce' | 'general';
 }
