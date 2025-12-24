@@ -4,11 +4,12 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Blog from './pages/Blog';
 import CityServiceSEO from './pages/CityServiceSEO';
 import { Icons } from './components/Icons';
 import { ONLINE_DOMAIN, STORE_DOMAIN } from './constants';
 
-// Placeholder Pages
+// Placeholder Pages for other routes
 const Page = ({ title }: { title: string }) => (
   <div className="min-h-screen pt-32 pb-20 px-4 text-center max-w-4xl mx-auto">
     <h1 className="text-5xl font-black mb-8">{title}</h1>
@@ -56,7 +57,7 @@ const App: React.FC = () => {
             <Route path="/services" element={<Page title="خدماتنا الرقمية الشاملة" />} />
             <Route path="/pricing" element={<Page title="باقات الأسعار التنافسية" />} />
             <Route path="/portfolio" element={<Page title="سابقة أعمالنا - قصص نجاح" />} />
-            <Route path="/blog" element={<Page title="مدونة EhabGM الرقمية" />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Page title="تواصل معنا - نحن هنا لخدمتك" />} />
             {/* SEO Dynamic Routes */}
             <Route path="/seo/:serviceId/:cityId" element={<CityServiceSEO />} />
